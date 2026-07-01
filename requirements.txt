@@ -1,0 +1,13 @@
+# Core - required for handcue.py to run in simulator mode
+# (none - simulator uses only Python stdlib)
+
+# Optional - for LLM intent parsing (Claude fallback)
+anthropic>=0.40.0
+
+# Optional - for local voice recognition (Phase 2)
+# vosk>=0.3.45
+# sounddevice>=0.4.6
+
+# Optional - for speaker verification (Phase 2)
+# resemblyzer>=0.1.4
+# numpy>=1.24.0
